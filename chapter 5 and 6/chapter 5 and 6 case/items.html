@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link href="ch1.css" rel="stylesheet">
+    <script src="modernizr.custom.05819.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>Comic Books</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="items.html">Menu</a></li>
+            <li><a href="photos.html">PhotoGallery</a></li>
+            <li><a href="collection.html">Collection</a></li>
+        </ul>
+    </nav>
+
+    <body>
+        <h2>What Comic book company do you buy from?</h2>
+        <select id="selectbox">
+            <option value="Marvel">Marvel</option>
+            <option value="Image">Image</option>
+            <option value="DC">DC</option>
+        </select>
+        <button onclick="fn1()">Click</button>
+
+        <form action="" method="">
+
+         <label for="comments">Comments</label><br><br>
+        <textarea id="comments" rows="5" cols="65"></textarea>
+        </form>
+
+        <h3>Comics collected this year and last year?</h3>
+        <input type="text" name="" id="t1">
+        <input type="text" name="" id="t2">
+        <button onclick="add()">Add</button>
+
+
+    <script src="comic.js"></script>
+</body>
+</html>

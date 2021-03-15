@@ -1,0 +1,15 @@
+header { background-color: blue; text-align: center; font-size:4em ; }
+
+nav { padding-top: 10px; float: left; width: 200px; background-color: cornflowerblue; }
+
+p { font-size: 20% black; font-family: Georgia, 'Times New Roman', Times, serif; margin-left: 20%; margin-right: 20%;}
+
+h2 {text-align: left; font-size: 50px;}
+
+form {text-align: center; color: blue;}
+
+select {margin-left: 30%; margin-bottom: 5%;}
+
+input{ text-align: center;}
+
+h3 {text-align: center;}
